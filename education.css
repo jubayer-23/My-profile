@@ -1,0 +1,57 @@
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    
+    background-color: antiquewhite;
+    border-style:solid;
+    border-radius: 15px;
+    border-width: 5cpx;
+    border-color:rgb(226, 206, 142);
+    width:500px;
+    height: 700px;
+    box-shadow:5px 5px 30px  rgb(166, 166, 196);
+}
+.backdiv {
+    background-color: rgb(202, 221, 238);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(155, 151, 151);
+    width:60px;
+    height:30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.education {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sscdiv, .hscdiv, .universitydiv {
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color:rgb(90, 102, 48);
+    text-align: center;
+}
+a { 
+    text-decoration: none;
+    padding: 2px;
+}
